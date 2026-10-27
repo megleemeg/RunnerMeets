@@ -1,0 +1,30 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+
+# Node / Vite
+node_modules/
+dist/
+*.local
+
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+appsettings.Local.json
+secrets.json
+*.pfx
+*.pem
+*.key
+
+# IDE and OS
+.vs/
+.vscode/
+.idea/
+.DS_Store
+
+# Logs
+*.log
+logs/
